@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #c5e4e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    display: flex;
+    padding: 30px;
+    border-radius: 15px;
+    width: 750px;
+    gap: 30px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.tip-btn {
+    padding: 10px;
+    border: none;
+    background: #00494d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tip-btn:hover {
+    background: #26c0ab;
+}
+
+.tip-btn.active {
+    background: #26c0ab;
+}
+
+#customTip {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right {
+    flex: 1;
+    background: #00494d;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result span {
+    font-size: 12px;
+    color: #7f9c9f;
+}
+
+.right h3 {
+    font-size: 28px;
+    color: #26c0ab;
+}
+
+#reset {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #26c0ab;
+    color: #00494d;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#reset:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
